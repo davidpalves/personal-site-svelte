@@ -25,6 +25,7 @@
         justify-content: space-between;
         align-content: center;
         position: fixed;
+        z-index: 5;
     }
 
     .logo {
@@ -59,9 +60,9 @@
     }
     
     .items, .logo {
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(255, 255, 255, 0.2);
     }
     .items button:hover, .logo:hover{
-        background-color: #f5f5f5;
+        background-color: rgba(245, 245, 245, 0.7);
     }
 </style>

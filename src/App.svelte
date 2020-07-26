@@ -4,6 +4,7 @@
   import Navbar from "./components/header/Navbar.svelte";
   import Welcome from "./routes/Welcome.svelte";
   import About from "./routes/About.svelte";
+  import Blog from "./routes/Blog.svelte";
 
   export let url = ""
 </script>
@@ -11,5 +12,6 @@
 <Router url="{url}">
   <Navbar />
   <Route path="/about"><About /></Route>
-	<Route path="/"><Welcome/></Route>
+  <!-- <Route path="/blog"><Blog /></Route> -->
+	<Route path="/"><Blog/></Route>
 </Router>
