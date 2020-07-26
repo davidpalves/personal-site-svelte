@@ -1,4 +1,6 @@
 <script>
+    import Link from "svelte-routing/src/Link.svelte";
+
     import { truncate } from '../../utils'
     export let post = {}
 </script>

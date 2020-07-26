@@ -30,7 +30,6 @@
       transform: translateY(50px);
       width: 100%;
       display: flex;
-      flex: 1;
       align-items: center;
       justify-content: center;
     }
