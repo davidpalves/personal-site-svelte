@@ -1,16 +1,18 @@
 <script>
-    import showAbout from '../../store/showAbout.store'
+    import Link from "svelte-routing/src/Link.svelte";
 </script>
 
 <nav>
-    <div on:click={showAbout.toggle} class="logo">
-        davidpalves
-    </div>
+    <Link to="/">
+        <button class="logo">
+            davidpalves
+        </button>
+    </Link>
     <div class="items">
-        <button>Home</button>
-        <button>About</button>
-        <button>Blog</button>
-        <button>Contact</button>
+        <Link to="/"><button>Home</button></Link>
+        <Link to="about"><button>About</button></Link>
+        <Link to="blog"><button>Blog</button></Link>
+        <Link to="contact"><button>Contact</button></Link>
     </div>
 </nav>
 
@@ -30,6 +32,7 @@
         align-self: center;
         padding: 20px 25px 20px 25px;
         cursor: pointer;
+        border: none;
         transform: translateY(-4px)
     }
     
