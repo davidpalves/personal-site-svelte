@@ -11,7 +11,8 @@
 
 <Router url="{url}">
   <Navbar />
-  <Route path="/about"><About /></Route>
-  <!-- <Route path="/blog"><Blog /></Route> -->
-	<Route path="/"><Blog/></Route>
+  <!-- <Route path="/blog/:id" component="{BlogPost}"/> -->
+  <Route path="/blog" component="{Blog}"/>
+  <Route path="/about" component="{About}"/>
+	<Route path="/"><Welcome/></Route>
 </Router>
