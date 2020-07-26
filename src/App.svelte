@@ -2,10 +2,8 @@
   import { Router, Route } from "svelte-routing";
 
   import Navbar from "./components/header/Navbar.svelte";
-  import Welcome from "./components/welcome/Welcome.svelte";
-  import About from "./components/about/About.svelte";
-
-  import showAbout from "./store/showAbout.store.js"
+  import Welcome from "./routes/Welcome.svelte";
+  import About from "./routes/About.svelte";
 
   export let url = ""
 </script>

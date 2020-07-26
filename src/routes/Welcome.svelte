@@ -1,13 +1,13 @@
 <script>
+    import Link from 'svelte-routing/src/Link.svelte';
+    
     import { fly } from 'svelte/transition';
-
-    import showAbout from '../../store/showAbout.store'
 </script>
 
 <main in:fly="{{ y: 0, x: -40, duration: 500}}">
     <h1>Welcome!</h1>
     <h2>I'm David</h2>
-	<button on:click={showAbout.toggle}>Learn more about me!</button>
+	<Link to="about"><button>Learn more about me!</button></Link>
 </main>
 
 <style>
