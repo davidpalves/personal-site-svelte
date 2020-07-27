@@ -4,7 +4,7 @@
 
 <main>
     <div class="about-me" in:fly="{{ y: 0, x: -40, duration: 500}}">
-        <img src="/images/david.png" alt="David with glitch effect"/>
+        <img loading="lazy" src="/images/david.png" alt="David with glitch effect"/>
         <div class="content">
         <h2>About me</h2>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at ornare
