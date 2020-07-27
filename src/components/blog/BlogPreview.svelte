@@ -6,7 +6,7 @@
 </script>
 
 <div class="content">
-    <h2>{post.title}</h2>
+    <Link to={`blog/${post.slug}`}><h2>{post.title}</h2></Link>
     <p>{truncate(post.text, 296)}</p>
     <div class="post-info">
     <small>Author: {post.author}</small>
@@ -17,6 +17,8 @@
 <style>
     h2 {
       text-align: center;
+      color: #1a1a1a;
+      text-decoration: none;
     }
 
     .content {

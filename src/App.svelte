@@ -14,6 +14,6 @@
   <Navbar />
   <Route path="/blog" component="{Blog}"/>
   <Route path="/about" component="{About}"/>
-  <Route path="/blog/:id" component="{BlogPost}"/>
-	<Route path="/"><BlogPost/></Route>
+  <Route path="/blog/:slug" let:params><BlogPost slug="{params.slug}"/></Route>
+	<Route path="/"><Welcome/></Route>
 </Router>

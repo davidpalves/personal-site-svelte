@@ -1,5 +1,5 @@
 <script>
-    export let slug = "vivamus-est-omnia-libero"
+    export let slug = ""
 
     const post = getResult(slug)
 
