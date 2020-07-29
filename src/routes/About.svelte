@@ -43,7 +43,7 @@
   
     img {
         margin-right: 20px;
-        width: 400px;
+        width: 380px;
         border-radius: 4px;
         box-shadow: 0px 1px 1px rgba(33, 33, 33, 0.1);
     }
