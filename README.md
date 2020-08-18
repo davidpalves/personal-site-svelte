@@ -1,5 +1,3 @@
-This is a project personal site project which uses a django API for the backend
-
 ---
 
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
